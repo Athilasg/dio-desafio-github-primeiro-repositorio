@@ -1,0 +1,33 @@
+/ ************************************************* ********************************
+* 9) Faça um expresso que leia a idade de uma pessoa anos, meses e 
+* dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano
+* com 365 dias e mês com 30 dias.
+**************************************************** **************************** */
+
+importar  java.util.Scanner ;
+
+ aula  pública Exercício {
+
+    public  static  void  main ( String [] args ) {
+        Entrada do Scanner =  novo  Scanner ( System . in);
+	int  IdadeAnos  /* not anus! */ , IdadeMeses , IdadeDias , IdadeTotalDias ;
+	
+	Sistema . fora . print( " Calculadora de idade em dias \n\n " ); // Existe algum exercício mais do que esse?!
+
+
+	Sistema . fora . print( " Digite os anos: " );
+	Idade Anos  = entrada . nextInt();
+	
+	Sistema . fora . print( " Digite os meses: " );
+	IdadeMeses  = entrada . nextInt();
+
+	Sistema . fora . print( " Digite os dias: " );
+	IdadeDias  = entrada . nextInt();
+
+
+	IdadeTotalDias  =  IdadeAnos  *  365  +  IdadeMeses  *  30  +  IdadeDias ;
+	Sistema . fora .print( " Idade total em dias = " + IdadeTotalDias + " \n " );
+	
+    }
+
+}
